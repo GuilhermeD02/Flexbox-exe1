@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(20, 211, 20);
+    color: white;
+    font-size:20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+.header > img{
+    width: 15%;
+    padding: 5px;
+    border-radius: 90%;
+}
+/*
+fazendo a segunda parte
+*/
+.flag{
+    width: 250px;
+    height: 150px;
+  }
+  .flag-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #flag-container{
+    background-color: antiquewhite;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #flag-container > h1{
+    color:rgb(29, 29, 32);
+    font-variant:small-caps;
+    font-size:30px;
+  }
+  .flag-list > div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    width: 250%;
+  }
+
+/* 
+Fazendo a terceira parte
+*/
+
+#flag-irlanda > img{
+    width:300px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+#flag-irlanda{
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#flag-irlanda > p {
+    margin-right:20px ;
+}
