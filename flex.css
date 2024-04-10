@@ -1,75 +1,141 @@
 *{
-    margin: 0;
+  margin: 0;
 }
 
-.header{
-    display: flex;
-    background-color: rgb(20, 211, 20);
-    color: white;
-    font-size:20px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
-
+.header {
+  display: flex;
+  background-color: rgb(20, 211, 20);
+  color: white;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
 }
 
-.header > img{
-    width: 15%;
-    padding: 5px;
-    border-radius: 90%;
+.header > img {
+  width: 15%;
+  padding: 5px;
+  border-radius: 90%;
 }
+
 /*
-fazendo a segunda parte
+  Making the second part
 */
-.flag{
-    width: 250px;
-    height: 150px;
-  }
-  .flag-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-  #flag-container{
-    background-color: antiquewhite;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #flag-container > h1{
-    color:rgb(29, 29, 32);
-    font-variant:small-caps;
-    font-size:30px;
-  }
-  .flag-list > div{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 25px;
-    width: 250%;
-  }
+
+.flag {
+  width: 250px;
+  height: 150px;
+}
+
+.flag-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#flag-container {
+  background-color: antiquewhite;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#flag-container > h1 {
+  color: rgb(29, 29, 32);
+  font-variant: small-caps;
+  font-size: 30px;
+}
+
+.flag-list > div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  width: 100%; /* Fixed width issue */
+}
 
 /* 
-Fazendo a terceira parte
+  Making the third part
 */
 
-#flag-irlanda > img{
-    width:300px;
+#flag-irlanda > img {
+  width: 300px;
 }
-#container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 0px;
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
 }
-#flag-irlanda{
-    padding: 10px;
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
+
+#flag-irlanda {
+  padding: 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
 }
 
 #flag-irlanda > p {
-    margin-right:20px ;
+  margin-right: 20px;
 }
+
+/* 
+  Making the list section similar to others
+*/
+
+section {
+  display: flex; /* Applied to all sections */
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+section ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+section li img {
+  width: 50px; /* Adjust image size as needed */
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #222;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Permite clicar no footer */
+  transition: background-color 0.2s ease-in-out;
+}
+
+footer:hover {
+  background-color: #333;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+}
+
