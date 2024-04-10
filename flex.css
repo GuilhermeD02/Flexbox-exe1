@@ -19,7 +19,7 @@
 }
 
 /*
-  Making the second part
+  Fazendo a segunda parte
 */
 
 .flag {
@@ -52,12 +52,12 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 25px;
-  width: 100%; /* Fixed width issue */
+  width: 100%;
 }
 
-/* 
-  Making the third part
-*/
+ 
+
+
 
 #flag-irlanda > img {
   width: 300px;
@@ -81,19 +81,17 @@
   margin-right: 20px;
 }
 
-/* 
-  Making the list section similar to others
-*/
+
 
 section {
-  display: flex; /* Applied to all sections */
+  display: flex; 
   flex-direction: column;
   align-items: center;
   padding: 20px 0px;
 }
 
 section ul {
-  list-style: none; /* Remove default bullet points */
+  list-style: none; 
   padding: 0;
   margin: 0;
 }
@@ -106,7 +104,7 @@ section li {
 }
 
 section li img {
-  width: 50px; /* Adjust image size as needed */
+  width: 50px;
 }
 
 footer {
@@ -119,7 +117,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer; /* Permite clicar no footer */
+  cursor: pointer; 
   transition: background-color 0.2s ease-in-out;
 }
 
